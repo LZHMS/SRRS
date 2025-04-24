@@ -1,0 +1,13 @@
+name: srrs
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.7
+  - torchvision==0.12.0
+  - cudatoolkit=11.3
+  - pytorch==1.11.0
+  - transformers
+  - timm
+  - fairscale
+prefix: /home/zhli/miniconda3/envs/srrs
