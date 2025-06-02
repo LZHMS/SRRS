@@ -16,13 +16,13 @@ NCTX=16  # number of context tokens
 SHOTS=16  # number of shots (1, 2, 4, 8, 16)
 CSC=False  # class-specific context (False or True)
 
-for SEED in 1 
+for SEED in 1 2 3
 do
     DIR=output_${TYPE}/${TAG}/${DATASET}/${CFG}_${SHOTS}shots_${FP}FP_${FPTYPE}/nctx${NCTX}_csc${CSC}_ctp${CTP}_gce${GCE}/seed${SEED}
     PYDIR=${TYPE}/${TAG}.py
     if [ -d "$DIR" ]; then
         echo "Results are available in ${DIR}. Skip this job"
-        rm -rf ${DIR}
+        #rm -rf ${DIR}
     else
         echo "Run this job and save the output to ${DIR}"
         python ${PYDIR} \
