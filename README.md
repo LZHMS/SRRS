@@ -1,7 +1,9 @@
 # Screening, Rectifying, and Re-Screening: A Unified Framework for Tuning Vision-Language Models with Noisy Labels [IJCAI 2025]
 Official PyTorch implementation for the paper:
 > **Screening, Rectifying, and Re-Screening: A Unified Framework for Tuning Vision-Language Models with Noisy Labels**
+> 
 > Chaowei Fang, Hangfei Ma, [Zhihao Li](https://lzhms.github.io/), De Cheng, Yue Zhang, Guangbin Li
+> 
 > <a href='https://lzhms.github.io/projects/SRRS/'><img src='https://img.shields.io/badge/Project-Blog-blue'></a> <a href=''><img src='https://img.shields.io/badge/Paper-IJCAI-green'></a> [![Github](https://badges.aleen42.com/src/github.svg)](https://github.com/LZHMS/SRRS)
 
 <img src="./assert/SRRS.png" alt="SRRS Framework"/>
