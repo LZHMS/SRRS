@@ -10,4 +10,11 @@ dependencies:
   - transformers
   - timm
   - fairscale
+  - tensorboard
+  - six
+  - tabulate
+  - gdown
+  - wilds
+  - yacs
+  - ftfy
 prefix: /home/zhli/miniconda3/envs/srrs
